@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("https://restaurant.stepprojects.ge/images/p_bg.jpg");
+}
+
+a{
+    cursor: pointer;
+}
+@media only screen and (max-width: 426px){
+    body{
+        width: 426px;
+        overflow-x: hidden;
+    }
+}

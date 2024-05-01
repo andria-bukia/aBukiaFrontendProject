@@ -1,0 +1,527 @@
+.allpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoriestitle{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    border-bottom: 3px solid red;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexo{
+  display: flex;
+}
+
+.categories h1{
+  font-size: 30px;
+
+}
+
+.imigi{
+  height: 200px;
+  width: 200px;
+}
+
+.price{
+  font-size:  20px; 
+}
+
+.ohara{
+  height: 50px;
+  width: 100px;
+  border: 1px double black;
+  transition: background-color 1s;
+}
+
+.ohara:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  background-color: red;
+}
+.divi{
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  transition: box-shadow 1s;
+  margin: 10px;
+}
+.asd{
+  height: 40px;
+  width: auto;
+  transition: background-color 0.5s;
+}
+
+.asd:hover{
+background-color: red;
+cursor: pointer;
+}
+.divi:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.gridBoi{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.flexTape{
+  width: auto;
+  height: 40px;
+  transition: background-color 0.5s;
+}
+
+.flexTape:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+  .Filtertitle{
+    font-weight: 600;
+  }
+  .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: red;
+    cursor: pointer;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    height: 25px;
+    width:25px;    
+    border: 1px solid black;
+    border-radius: 100%;
+ }
+  .slider::-moz-range-thumb {
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    height: 2rem;
+    width: 1rem;
+}
+  .checkbox1 {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .checkbox1 input{
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox1 p{
+    margin-left: 10px;
+  }
+  .checkbox2 {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .checkbox2 input{
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox2 p{
+    margin-left: 10px;
+  }
+  
+  .red-box1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    top: 150px;
+    width: 180px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: red;
+    margin-bottom: 10px;
+    line-height: 4dvh;
+  }
+  
+  .red-box2 {
+    margin-top: 30px;
+    padding-left: 40px;
+    width: 180px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    line-height: 4dvh;
+  }
+  .flist{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .fig{
+    height: 250px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .list{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  }
+  .productimage{
+    width: 200px;
+    height: 180px;
+  }
+  .pbtn{
+    display: flex;
+    justify-content: space-between;
+  }
+  .infos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+  }
+  .infos p{
+    font-size: 15px;
+    color: red;
+  }
+  .card{
+    width: 250px;
+    height: 300px;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card:hover{
+    box-shadow: 5px 5px 5px gray;
+  }
+  .spiciness{
+    color: rgb(160, 160, 160);
+  }
+  .pbtn button{
+    background-color: white;
+    border: black 2px solid;
+    width: 80px;
+    height: 40px;
+  }
+  .pbtn button:hover{
+    background-color: red;
+    border: none;
+    color: white;
+  }
+
+  .bech{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.butone{
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 100px;    
+  transition-property: background-color,color,border-radius;
+  transition-duration: 1s;
+  font-size: 20px;
+  // margin: 10px;
+  padding: 0px;
+
+}
+
+.butone:hover{
+  background-color: white;
+  color: green;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.flexooo{
+  display: flex;
+  gap: 10px;
+}
+
+  @media only screen and (max-width: 426px){
+    .flexTape h1{
+      font-size: 20px;
+    }
+
+    .butone{
+      height: 50px;
+      width: 50px;
+      font-size: 10px;
+    }
+    .fig{
+      margin-top: 20px; 
+    height: 250px;
+  width: 100px;   }
+
+  .bernardo{
+    width: 90px;
+    height: 30px;
+  }
+
+    .bech{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .categories h1{
+      font-size: 13px;
+    }
+
+    .categories{
+      display: grid;
+      grid-template-columns: auto auto;
+      height: auto;
+      width: auto;
+    }
+
+
+    .flexTape{
+      display: grid;
+      grid-template-columns: auto auto;
+      
+    }
+
+    .list{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+ 
+
+    .divi{
+      height: 180px;
+      width: 110px;
+    }
+    .divi img{
+      height: 40px;
+      width: 30px;
+    }
+    .divi h1{
+ font-size: 15px;
+    }
+
+    .flexo{
+      height: 50px;
+      width: 100px;
+    }
+
+    .flexo h1{
+      font-size: 20px;
+    }
+
+    .spec{
+      font-size: 20px;
+    }
+    .flist{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      width: 426px;
+    }
+    .bech{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .flexTape h1{
+      font-size: 16px;
+    }
+   
+
+
+  .categoriestitle{
+      margin-top: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  
+  .filter {
+      margin-top: 30px;
+      width: 410px;
+      height: 300px;
+      background-color: #F1F1F1;
+      border: 2px solid #CFCFCF;
+      border-radius: 5px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5px;
+    }
+    .Filtertitle{
+      font-weight: 600;
+    }
+    .a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slider-container {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .slider {
+      height: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      width: 100%;
+      -webkit-appearance: none;
+      appearance: none;
+      background: red;
+      cursor: pointer;
+    }
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: white;
+      height: 25px;
+      width:25px;    
+      border: 1px solid black;
+      border-radius: 100%;
+   }
+    .slider::-moz-range-thumb {
+      border: none;
+      border-radius: 0;
+      background-color: white;
+      height: 2rem;
+      width: 1rem;
+  }
+    .checkbox1 {
+      margin-bottom: 10px;
+      display: flex;
+    }
+    .checkbox1 input{
+      width: 20px;
+      height: 20px;
+    }
+    .checkbox1 p{
+      margin-left: 10px;
+    }
+    .checkbox2 {
+      margin-bottom: 10px;
+      display: flex;
+    }
+    .checkbox2 input{
+      width: 20px;
+      height: 20px;
+    }
+    .checkbox2 p{
+      margin-left: 10px;
+    }
+    
+    .red-box1 {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 900;
+      color: white;
+      top: 150px;
+      width: 180px;
+      height: 35px;
+      border-radius: 6px;
+      background-color: red;
+      margin-bottom: 10px;
+      line-height: 4dvh;
+    }
+    
+    .red-box2 {
+      margin-top: 30px;
+      padding-left: 40px;
+      width: 180px;
+      height: 35px;
+      border-radius: 6px;
+      background-color: red;
+      color: white;
+      line-height: 4dvh;
+    }
+
+
+    .productimage{
+      width: 200px;
+      height: 180px;
+    }
+    .pbtn{
+      display: flex;
+      justify-content: space-between;
+    }
+    .infos{
+      display: flex;
+      justify-content: space-evenly;
+      width: 200px;
+    }
+    .infos p{
+      font-size: 15px;
+      color: red;
+    }
+    .card{
+      width: 410px;
+      height: 300px;
+      margin-left: 5px;
+      border: 2px solid rgb(184, 184, 184);
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card:hover{
+      box-shadow: 5px 5px 5px gray;
+    }
+    .spiciness{
+      color: rgb(160, 160, 160);
+    }
+    .pbtn button{
+      background-color: white;
+      border: black 2px solid;
+      width: 80px;
+      height: 40px;
+    }
+    .pbtn button:hover{
+      background-color: red;
+      border: none;
+      color: white;
+    }
+
+
+  }
+

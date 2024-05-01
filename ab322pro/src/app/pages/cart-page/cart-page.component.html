@@ -1,0 +1,55 @@
+<app-header></app-header>
+<div class="c">
+<div class="mininav" >
+    <h2 routerLink="" class="page1">home/</h2>
+    <h2 class="page2" >cart</h2>
+</div>    
+</div>
+
+<div class="allpage" style="height: 1850px;">
+<div class="a">
+    <div class="all">
+        <div class="categoriestitle">
+            <h1>Cart</h1>             
+        </div> 
+        <div class="categories">
+            <div class="Product">
+                <p>Product</p>
+            </div>
+            <div class="info">
+                <p class="Qty">Qty</p>
+                <p class="Price">Price</p>
+            </div>
+        </div>
+    </div>
+    <div class="all2" *ngFor="let item of items">
+        <div class="categories2">
+            <div class="Product2">
+                <p>{{item.product.name}}</p>
+            </div>
+            <div class="info2">
+                <div class="info12">
+                    <div class="Qty2">
+                        <button class="plus" (click)="productsService.UpdateBasket(item.quantity+1,item.product.id)">+</button>
+                        <p >{{item.quantity}}</p>
+                        <button class="minus" (click)="productsService.UpdateBasket(item.quantity-1,item.product.id)">-</button>
+                    </div>
+
+                    <p class="Price2">{{item.product.price}}$ * {{item.quantity}} </p>
+                </div>
+                <button class="butone" (click)="productsService.deleteBasket(item.product.id)">Delete</button>
+                
+            </div>
+
+        </div>
+        
+    </div>
+    <div class="mishka">
+        <button routerLink="/check" class="green">Proceed to Checkout</button>
+      </div>
+</div>
+
+</div>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,24 @@
+.flexaboi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ruini{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 100px;    
+    transition-property: background-color,color,border-radius;
+    transition-duration: 1s;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.ruini:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border-radius: 20px;
+}

@@ -1,0 +1,196 @@
+.all{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0,0.8);
+    border-bottom: rgb(255, 0, 0) solid 5px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+.nav1{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deliveryicon{
+    width: 40px;
+    height: 40px;
+    transition-duration:3s ;
+}
+.nav11{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    transition: gap 1.2s;
+}
+.Home img{
+    width: 40px;
+    height: 40px;
+    display: none;
+
+}
+.Home:hover{
+    border-bottom: 5px solid red;
+    cursor: pointer;
+}
+.Cart {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    transition: gap 1.2s;
+    margin-top: 1.7%;
+    margin-left: 4.5%;
+    cursor: pointer;
+}
+ 
+.Cart p{
+    height: 25px;
+    background: #ff0000;
+    display: inline-block;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 3px;
+    position: relative;
+    font-size: 14px;
+}
+ .Cart:hover{
+      .deliveryicon:hover{
+    transform: translateX(20px) ;
+    cursor: pointer;
+  
+}
+ }
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all2 {
+    vertical-align: top;
+    background: url(./inner_banner.jpg) no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    height: 289px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+@media only screen and (max-width: 426px) {
+    .all{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: rgba(0, 0, 0,0.8);
+        border-bottom: rgb(255, 0, 0) solid 5px;
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+    .nav1{
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .deliveryicon{
+        width: 40px;
+        height: 40px;
+    }
+    .nav11{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .Home{
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        transition: gap 1.2s;
+    }
+    .Home img{
+        width: 40px;
+        height: 40px;
+        display: none;
+    
+    }
+    .Home:hover{
+        border-bottom: 5px solid red;
+    }
+    .Cart {
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        transition: gap 1.2s;
+        margin-top: 1.7%;
+        margin-left: 4.5%;
+        cursor: pointer;
+    }
+     
+    .Cart p{
+        height: 25px;
+        background: #ff0000;
+        display: inline-block;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 3px;
+        position: relative;
+        font-size: 14px;
+    }
+     
+    .Cart:hover{
+        gap: 30px;
+    }
+    .a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .all2 {
+        vertical-align: top;
+        background: url(./inner_banner.jpg) no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+        height: 289px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 409px;
+        padding-left: 40px;
+    }
+}

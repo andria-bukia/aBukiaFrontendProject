@@ -1,0 +1,47 @@
+<app-header></app-header>
+<div class="allpage">
+   <div class="flex">
+    <app-categories (Products)="reciveSent($event)"></app-categories>
+         
+        <div class="flist">
+            <div class="fig">
+                <h1 class="spec">Spiciness: {{spiciness}}</h1>
+                <input class="bernardo" (input)="spicinessChange()" type="range" name="nuts" [(ngModel)]="spicinessValue" min="0" max="5">
+               <div class="flexo">
+                <input type="checkbox" name="veg" [(ngModel)]="vegie">
+                <h1>vegeterian</h1>
+               </div>
+               <div class="flexo">
+                <input type="checkbox" name="nut" [(ngModel)]="nuts">
+                <h1>nuts</h1>
+               </div>
+               <div class="flexooo">
+                <button class="butone" (click)="reset()">RESET</button>
+                <button class="butone" (click)="getFiltered()">APPLY FILTER</button>
+               </div>
+          
+            </div>
+            
+        <div class="list">
+           
+                  
+                       <div class="divi" *ngFor="let item of productshow">
+                     <img class="imigi" [src]="item.image" [alt]="item.name">
+                          <h1>{{item.name}}</h1>
+                             <p class="price">{{item.price}} $</p>
+                             <button  (click)="productsService.addToBasket(item.id)" class="ohara">Add to cart</button>
+        
+        
+            </div>
+          
+        </div>
+        
+        
+        </div>
+   </div>
+
+</div>
+<div class="nopapa">
+    <app-footer></app-footer>
+</div>
+
